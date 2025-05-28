@@ -42,9 +42,11 @@ API прогноза погоды: Open-Meteo
  # Запуск
 
  Через Docker
+ 
  ```docker-compose up --build```
 
  Или локально
+ 
  ```pip install -r requirements.txt```
  
 ```uvicorn app:app --reload```
