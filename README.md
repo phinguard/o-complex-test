@@ -45,6 +45,6 @@ API прогноза погоды: Open-Meteo
  ```docker-compose up --build```
 
  Или локально
- ```pip install -r requirements.txt``
+ ```pip install -r requirements.txt```
  
-``uvicorn app:app --reload```
+```uvicorn app:app --reload```
